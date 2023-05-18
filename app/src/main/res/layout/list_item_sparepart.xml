@@ -2,43 +2,67 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    android:padding="8dp">
+    android:layout_margin="12dp"
+    android:elevation="8dp"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:padding="10dp"
+        android:background="@drawable/rounded_bg"
+        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tv_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:text="ID"
-            />
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_motherboard"/>
 
-        <TextView
-            android:id="@+id/tv_nama"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="NAMA"
-            />
-        <TextView
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_bg"
+            android:orientation="vertical">
 
-            android:id="@+id/tv_asal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ASAL"
-            />
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="ID"
+                android:fontFamily="@font/quicksand_bold"
+                />
 
-        <TextView
-            android:id="@+id/tv_deskripsi_singkat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="DESKRIPSI SINGKAT"
-            android:maxLength="20"
-            />
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                />
+            <TextView
+                android:id="@+id/tv_asal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kategori"
+                android:textSize="16dp"
+                android:fontFamily="@font/quicksand_semibold"
+                />
+
+            <TextView
+                android:id="@+id/tv_deskripsi_singkat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+                android:maxLength="20"
+                android:fontFamily="@font/quicksand_semibold"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 

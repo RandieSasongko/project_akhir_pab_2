@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Project_Akhir_UAS_Pemogramman_Aplikasi_Bergerak_II"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
