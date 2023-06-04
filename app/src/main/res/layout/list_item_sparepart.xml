@@ -45,7 +45,7 @@
                 android:fontFamily="@font/quicksand_bold"
                 />
             <TextView
-                android:id="@+id/tv_asal"
+                android:id="@+id/tv_kategori"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Kategori"
@@ -54,7 +54,7 @@
                 />
 
             <TextView
-                android:id="@+id/tv_deskripsi_singkat"
+                android:id="@+id/tv_deskripsi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Deskripsi"

@@ -1,8 +1,10 @@
-package com.example.project_akhir_uas_pemogramman_aplikasi_bergerak_ii;
+package com.example.project_akhir_uas_pemogramman_aplikasi_bergerak_ii.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.project_akhir_uas_pemogramman_aplikasi_bergerak_ii.R;
 
 public class DetailActivity extends AppCompatActivity {
 
